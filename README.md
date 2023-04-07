@@ -242,7 +242,7 @@ True
 ````
 
 #### In the Django shell, find locations within a certain distance of a point:
-````bash
+```bash
 >>> from django.contrib.gis.measure import D
 >>> from django.contrib.gis.geos import Point
 >>> from map.models import Location
