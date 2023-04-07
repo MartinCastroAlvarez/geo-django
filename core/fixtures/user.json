@@ -1,0 +1,47 @@
+[
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "username": "admin",
+      "password": "pbkdf2_sha256$216000$9Eesx1xjKpwR$zCmKjQF/Ld1+fR06RZOXsdlYKnOjXWDRF8TnyeLq3ks=",
+      "first_name": "Admin",
+      "last_name": "User",
+      "email": "admin@example.com",
+      "is_staff": true,
+      "is_active": true,
+      "is_superuser": true,
+      "date_joined": "2022-04-13T01:23:45Z"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+      "username": "user1",
+      "password": "pbkdf2_sha256$216000$y6hbl5M5uSjK$pU6b68AK6QwW6jCFU6RyUkA16CmG3q8PvF6mUJdYcQ0=",
+      "first_name": "Regular",
+      "last_name": "User",
+      "email": "user1@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "date_joined": "2022-04-13T01:24:56Z"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+      "username": "user2",
+      "password": "pbkdf2_sha256$216000$wHkdxzSrsS1O$g0lDhjKmt89op4X4bNPR4h2NhbSwzWX16k2ap67cYF0=",
+      "first_name": "Another",
+      "last_name": "User",
+      "email": "user2@example.com",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "date_joined": "2022-04-13T01:26:30Z"
+    }
+  }
+]

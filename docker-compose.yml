@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  db:
+    image: 'postgis/postgis:12-3.3-alpine'
+    hostname: 'postgis'
+    container_name: 'postgis'
+    ports:
+      - '5432:5432'
+    environment:
+      POSTGRES_USER: 'cat'
+      POSTGRES_PASSWORD: 'cat'
+      POSTGRES_DBNAME: 'cat'
